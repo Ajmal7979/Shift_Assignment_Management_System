@@ -109,3 +109,15 @@ Stores authentication and role information.
   "password": "Hashed String",
   "role": "MANAGER | STAFF"
 }
+
+
+post method
+backend - http://localhost:5000/api/auth/login
+credential -
+{
+  "email": "mng@gmail.com",
+  "password": "123"
+}
+
+
+
