@@ -97,6 +97,15 @@ The application uses **JWT authentication** with role validation.
 
 ---
 
+post method
+backend - http://localhost:5000/api/auth/login
+credential -
+{
+  "email": "mng@gmail.com",
+  "password": "123"
+}
+
+
 ## Database Schema
 
 ### User Collection
@@ -111,13 +120,7 @@ Stores authentication and role information.
 }
 
 
-post method
-backend - http://localhost:5000/api/auth/login
-credential -
-{
-  "email": "mng@gmail.com",
-  "password": "123"
-}
+
 
 
 
