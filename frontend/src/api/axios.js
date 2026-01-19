@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://shift-assignment-management-system.onrender.com/"
+  baseURL: "https://shift-assignment-management-system.onrender.com/api"
 });
 
 api.interceptors.request.use((config) => {
